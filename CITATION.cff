@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Ukraine MFO Market Index 2026 (Q4 2026) — IziPozika Open Financial Dataset"
+version: "1.0.0"
+date-released: 2026-11-17
+license: CC-BY-4.0
+url: "https://izipozika.com.ua/research/mfo-market-index-2026"
+authors:
+  - family-names: "Koval"
+    given-names: "Oleksandr"
+    affiliation: "IziPozika (izipozika.com.ua)"
+keywords:
+  - microfinance
+  - Ukraine
+  - consumer credit
+  - NBU Law 3498-IX
+  - APR
+  - fintech

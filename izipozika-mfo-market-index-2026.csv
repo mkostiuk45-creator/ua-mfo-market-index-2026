@@ -1,0 +1,68 @@
+﻿slug,brand,category,edrpou,legalName,firstLoanRateDailyPercent,repeatLoanRateDailyPercent,minAmountUah,maxFirstAmountUah,maxRepeatAmountUah,realAprMinPercent,realAprMaxPercent,approvalRatePercent,payoutMinutes,bankId,diya,autoScoring247,noCalls,prolongation
+moneyveo,Moneyveo,direct_mfo,38569246,ТОВ «МАНІВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»,0.01,1.7,500,25000,25000,3.65,730,96,5,true,true,true,true,true
+creditkasa,CreditKasa,direct_mfo,38548598,ТОВ «УКР КРЕДИТ ФІНАНС»,0.01,1,500,15000,15000,3.65,730,97,8,true,true,true,false,true
+mycredit,MyCredit,direct_mfo,39861924,ТОВ «1 БЕЗПЕЧНЕ АГЕНТСТВО НЕОБХІДНИХ КРЕДИТІВ»,0.01,1.6,1000,10000,10000,3.65,730,98,5,true,true,true,true,true
+shvydkogroshi,ШвидкоГроші,direct_mfo,37356833,ТОВ «СПОЖИВЧИЙ ЦЕНТР»,0.01,2.5,500,15000,15000,3.65,730,95,10,true,true,true,false,true
+e-groshi,E-groshi,direct_mfo,43067861,ТОВ «ФІНАНСОВА КОМПАНІЯ «Є ГРОШІ КОМ»,0.01,2,500,15000,15000,3.65,730,97,5,true,true,true,true,true
+tengo,Tengo,direct_mfo,40484607,ТОВ «МІЛОАН»,0.01,1.2,1000,25000,25000,3.65,730,97,5,true,true,true,true,true
+miloan,Miloan,direct_mfo,40484607,ТОВ «МІЛОАН»,0.01,1.67,500,25000,25000,3.65,730,97,5,true,true,true,true,true
+creditplus,CreditPlus,direct_mfo,41078230,ТОВ «АВЕНТУС УКРАЇНА»,0.01,1.5,500,15000,15000,3.65,730,97,5,true,true,true,true,true
+credit7,Credit7,direct_mfo,42753492,ТОВ «ЛІНЕУРА УКРАЇНА»,0.01,2,500,15000,15000,3.65,730,97,7,true,true,true,true,true
+selfiecredit,SelfieCredit,direct_mfo,43979069,ТОВ «СЕЛФІ КРЕДИТ»,0.01,1,500,30000,30000,3.65,730,97,4,true,true,true,true,true
+sloncredit,SlonCredit,direct_mfo,42350798,ТОВ «СЛОН КРЕДИТ»,0.01,1,500,27000,27000,3.65,730,97,6,true,true,true,true,true
+finx,FinX,direct_mfo,40474269,ТОВ «ФК «КРЕДІПЛЮС»,0.01,1.5,500,30000,30000,3.65,730,97,10,true,true,true,false,true
+starfin,Starfin,direct_mfo,44022416,ТОВ «СТАР ФАЙНЕНС ГРУП»,0.01,2.5,500,15000,15000,3.65,730,98,5,true,true,true,true,true
+suncredit,Suncredit,direct_mfo,44022416,ТОВ «СТАР ФАЙНЕНС ГРУП»,0.01,1.5,1000,20000,20000,3.65,730,99,5,true,true,true,true,true
+ranok,Ranok,direct_mfo,41919810,ТОВ «ГАМА АПГРЕЙД»,0.01,1.2,1000,20000,20000,3.65,730,99,4,true,true,true,true,true
+finbert,Finbert,direct_mfo,42016442,ТОВ «ФІНАНСОВА КОМПАНІЯ «ГВАДІАНА»,0.01,1,500,8000,8000,3.65,730,98,4,true,true,true,true,true
+microcash,Microcash,direct_mfo,41955906,ТОВ «ФІНТАРГЕТ»,0.01,2.7,500,6000,15000,3.65,730,99,5,true,true,true,true,true
+ewacash,EwaCash,direct_mfo,43561909,ТОВ «ФІНАНСОВА КОМПАНІЯ «ТАЙГЕР ФІНАНС»,0.01,1,1000,5000,15000,3.65,730,98,5,true,true,true,true,true
+clickcredit,ClickCredit,direct_mfo,39861924,ТОВ «1 БЕЗПЕЧНЕ АГЕНТСТВО НЕОБХІДНИХ КРЕДИТІВ»,0.01,1,500,8000,8000,3.65,730,96,4,true,true,true,true,true
+pango,Pango,direct_mfo,44620708,ТОВ «ФІНАНСОВА КОМПАНІЯ «НЕЗАЛЕЖНІ ФІНАНСИ»,0.01,1.6,500,12000,12000,3.65,730,97,5,true,true,true,true,true
+sos-credit,SOS Credit,direct_mfo,39487128,ТОВ «СОС КРЕДИТ»,0.01,2.5,500,20000,20000,3.65,730,97,6,true,true,true,true,true
+alexcredit,AlexCredit,direct_mfo,41346335,ТОВ «АЛЕКСКРЕДИТ»,0.01,1.7,500,6000,6000,3.65,730,96,6,true,true,true,true,true
+lovilave,Lovilave,direct_mfo,42640944,ТОВ «ФК «КІФ»,0.01,2.5,500,3000,10000,3.65,730,97,3,true,true,true,true,true
+treba,Треба Кредит,direct_mfo,44162880,ТОВ «МАКС КРЕДИТ»,0.01,1.47,500,10000,20000,3.65,730,97,5,true,true,true,true,true
+limon,Limon,direct_mfo,44291834,ТОВ «ОПТИМАЛЬНІ КРЕДИТИ»,0.01,2.2,500,27000,27000,3.65,730,97,5,true,true,true,true,true
+mister-money,Mister Money,direct_mfo,40660160,ТОВ «М-Р МАНІ»,0.01,1,500,5000,8000,3.65,730,96,5,true,true,true,true,true
+aviracredit,AviraCredit,direct_mfo,43174156,ТОВ «ФІНАНСОВА КОМПАНІЯ «АВІРА ГРУП»,0.01,0.72,500,7000,15000,3.65,730,96,5,true,true,true,true,true
+cashtancredit,CashtanCredit,direct_mfo,43564082,ТОВ «ЕКО ФІН»,0.01,1,500,25000,25000,3.65,730,97,6,true,true,true,true,true
+beecredit,BeeCredit,direct_mfo,44653728,ТОВ «МУЛЬТІКРЕДИТ»,1,1,500,10000,10000,3.65,730,96,5,true,true,true,true,true
+tvoyapozyka,ТвояПозика,direct_mfo,41084239,ТОВ «БІЗНЕС ПОЗИКА»,1,1,3000,150000,150000,3.65,730,94,10,true,true,true,false,true
+ariba,Ariba,direct_mfo,41919810,ТОВ «ГАМА АПГРЕЙД»,0.01,1.2,1000,20000,20000,3.65,730,97,5,true,true,true,true,true
+lehko,Lehko,direct_mfo,44162880,ТОВ «МАКС КРЕДИТ»,0.01,0.94,1000,10000,20000,3.65,730,97,5,true,true,true,true,true
+unex-bank,Unex Bank,direct_mfo,20023569,АТ «ЮНЕКС БАНК»,0.01,1,2000,22000,22000,3.65,730,94,10,true,true,true,true,true
+finclick,FinClick,direct_mfo,44912840,ТОВ «ІНВЕСТМЕНТ ФІНАНС ГРУП»,0.01,0.92,500,8000,8000,3.65,730,96,5,true,true,true,true,true
+turbogroshi,TurboGroshi,direct_mfo,44398210,ТОВ «ФК «БІКСБІТ»,1,1.5,500,10000,10000,3.65,730,96,5,true,true,true,true,true
+mybiz,MyBiz,direct_mfo,44419820,ТОВ «МАЙБІЗ»,0.01,2,500,10000,10000,3.65,730,95,5,true,true,true,true,true
+aerocash,AeroCash,direct_mfo,39898755,ТОВ ФК «УКРАЇНСЬКИЙ ПЛАТІЖНИЙ ЦЕНТР»,0.93,0.93,500,8000,8000,3.65,730,96,5,true,true,true,true,true
+rocket-money,Rocket Money,direct_mfo,39898755,ТОВ ФК «УКРАЇНСЬКИЙ ПЛАТІЖНИЙ ЦЕНТР»,0.01,0.93,3000,8000,8000,3.65,730,96,5,true,true,true,true,true
+finmarket,Finmarket,direct_mfo,44510290,ТОВ «ФК «ФІНМАРКЕТ»,0.01,2.2,1000,30000,30000,3.65,730,96,5,true,true,true,true,true
+cashpoint,Cashpoint,direct_mfo,37625840,ТОВ «БІ ЕЛ ДЖІ МІКРОФІНАНС»,0.99,0.99,500,10000,10000,3.65,730,95,15,true,true,true,false,true
+fcredit,FCredit,direct_mfo,41955906,ТОВ «ФІНТАРГЕТ»,0.01,2.4,1000,5000,15000,3.65,730,96,4,true,true,true,true,true
+freestyle-credit,FreeStyle Credit,direct_mfo,38569246,ТОВ «МАНІВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»,0.01,1.5,500,27000,27000,3.65,730,96,5,true,true,true,true,true
+credos,Credos,direct_mfo,38548598,ТОВ «УКР КРЕДИТ ФІНАНС»,0.01,0.99,500,20000,20000,3.65,730,97,6,true,true,true,true,true
+amigo,Аміго,direct_mfo,40484607,ТОВ «МІЛОАН»,0.01,2.4,500,7000,25000,3.65,730,95,5,true,true,true,true,true
+navse,НА ВСЕ,direct_mfo,38548598,ТОВ «УКР КРЕДИТ ФІНАНС»,0.01,1,500,50000,50000,3.65,730,95,8,true,true,true,false,true
+prostocredit,Prostocredit,direct_mfo,43601144,ТОВ «ФК ПРОСТО КРЕДИТ»,0.01,1,500,6000,8000,3.65,730,95,5,true,true,true,true,true
+monto,Monto,direct_mfo,42827134,ТОВ «СІРОКО ФІНАНС»,0.01,2.5,500,3000,3000,3.65,730,96,4,true,true,true,true,true
+novi-kredyty,Нові Кредити,direct_mfo,42152351,ТОВ «ФІНАНСОВА КОМПАНІЯ «НОВІ КРЕДИТИ»,0.01,1,500,10000,10000,3.65,730,97,5,true,true,true,true,true
+bizpozyka,БізнесПозика,direct_mfo,41084239,ТОВ «БІЗНЕС ПОЗИКА»,0.01,1,300,150000,150000,3.65,730,97,10,true,true,true,false,true
+top1-money,TOP1 Money,direct_mfo,44059032,ТОВ «ФК «ТОП1»,0.01,1,500,20000,20000,3.65,730,94,5,true,true,true,true,true
+loan-plus,Loan+,direct_mfo,39287145,ТОВ «ФК «АБЕКОР»,0.01,1,500,20000,20000,3.65,730,89,5,true,false,true,true,true
+recredit,Recredit,direct_mfo,41125531,ТОВ «КРЕДИТСЕРВІС»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+kltcredit,KLTKredit,direct_mfo,40076206,ТОВ «КЛТ КРЕДИТ»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+maxicredit,MaxiCredit,direct_mfo,42806643,ТОВ «МАКС КРЕДИТ»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+funnymoney,FunnyMoney,direct_mfo,36413053,ТОВ «ІНВЕСТМЕНТ ФІНАНС ГРУП»,0.01,1,500,20000,20000,3.65,730,92,5,true,false,true,true,true
+cly,CLY,direct_mfo,42146903,ТОВ «КЛАЙ ІНВЕСТ»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+first-credit,First Credit,direct_mfo,39287145,ТОВ «ФК «АБЕКОР»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+minibank,Minibank,aggregator,43042782,ТОВ «ФІНПАРТНЕРС» (онлайн-агрегатор),0.1,1,500,50000,50000,3.65,730,94,5,true,false,true,true,true
+procent,Procent,direct_mfo,41466388,ТОВ «ФК «ПРОЦЕНТ»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+superium-online,Superium Online,direct_mfo,42024152,ТОВ «ФК «СУПЕРІУМ»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+rabbitmoney,RabbitMoney,direct_mfo,44022416,ТОВ «СТАР ФАЙНЕНС ГРУП»,0.01,1,500,60000,60000,3.65,730,94,5,true,false,true,true,true
+groshi247,Groshi247,direct_mfo,41803222,ТОВ «ГРОШІ 247»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+lemurcredit,Lemurcredit,aggregator,Н/Д (агрегатор),Маркетплейс Lemurcredit (агрегатор МФО),0.1,1,500,15000,15000,3.65,730,94,5,true,false,true,true,true
+bestcredit,BestCredit,direct_mfo,39952398,ТОВ «ВЕЛЛФІН» / Агрегатор BestCredit,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+credityes,Credityes,aggregator,41123953,ТОВ «ВОК ФІНАНС ЮКРЕЙН»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+binixo,Binixo,aggregator,60165589Р (Кіпр),INFINSA LTD (маркетплейс Binixo),0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true
+fastcredit,Fastcredit,aggregator,44500873,ТОВ «ФАСТ КРЕДИТ»,0.01,1,500,20000,20000,3.65,730,94,5,true,false,true,true,true

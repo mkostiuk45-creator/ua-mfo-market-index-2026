@@ -1,0 +1,2588 @@
+{
+  "quarter": "Q4 2026",
+  "publishedAt": "2026-11-17",
+  "sampleSize": {
+    "totalCatalog": 67,
+    "directCount": 62,
+    "aggregatorsCount": 5,
+    "uniqueEdrpouCount": 48,
+    "multiBrandGroupsCount": 11,
+    "banksCount": 12
+  },
+  "ratesAndLimits": {
+    "zeroPercentCount": 60,
+    "zeroPercentShare": 89.6,
+    "avgRepeatRate": 1.35,
+    "medianRepeatRate": 1,
+    "minRepeatRate": 0.72,
+    "maxRepeatRate": 2.7,
+    "repeatRateBuckets": {
+      "compliantUpTo1": 40,
+      "mid101To150": 9,
+      "high151To200": 8,
+      "above200": 10
+    },
+    "avgMaxFirstAmount": 21537,
+    "avgApprovalRate": 95.8,
+    "avgPayoutMinutes": 5.6
+  },
+  "overpaymentBenchmark": {
+    "principal": 10000,
+    "mfoFirst14DaysOverpay": 14,
+    "mfoRepeat14DaysOverpay": 1890,
+    "mfoRepeat30DaysOverpay": 4050,
+    "mfoLawCap14DaysOverpay": 1400,
+    "bankGrace14DaysOverpay": 0,
+    "bankGrace30DaysOverpay": 0
+  },
+  "techAdoption": {
+    "bankId": {
+      "count": 67,
+      "share": 100
+    },
+    "diya": {
+      "count": 50,
+      "share": 74.6
+    },
+    "autoScoring247": {
+      "count": 67,
+      "share": 100
+    },
+    "noCalls": {
+      "count": 60,
+      "share": 89.6
+    },
+    "prolongation": {
+      "count": 67,
+      "share": 100
+    }
+  },
+  "bankComparison": {
+    "banksCount": 12,
+    "avgBankGraceDays": 64,
+    "avgBankRealApr": 47.4,
+    "maxBankLimit": 300000
+  },
+  "multiBrandGroups": [
+    {
+      "edrpou": "38548598",
+      "legalNameUk": "ТОВ «УКР КРЕДИТ ФІНАНС»",
+      "legalNameRu": "ООО «УКР КРЕДИТ ФИНАНС»",
+      "brands": [
+        {
+          "slug": "creditkasa",
+          "name": "CreditKasa",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 15000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "credos",
+          "name": "Credos",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.99,
+          "maxFirstAmount": 20000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "navse",
+          "name": "НА ВСЕ",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 50000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "40484607",
+      "legalNameUk": "ТОВ «МІЛОАН»",
+      "legalNameRu": "ООО «МИЛОАН»",
+      "brands": [
+        {
+          "slug": "tengo",
+          "name": "Tengo",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.2,
+          "maxFirstAmount": 25000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "miloan",
+          "name": "Miloan",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.67,
+          "maxFirstAmount": 25000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "amigo",
+          "name": "Аміго",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.4,
+          "maxFirstAmount": 7000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "44022416",
+      "legalNameUk": "ТОВ «СТАР ФАЙНЕНС ГРУП»",
+      "legalNameRu": "ООО «СТАР ФАЙНЕНС ГРУП»",
+      "brands": [
+        {
+          "slug": "starfin",
+          "name": "Starfin",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.5,
+          "maxFirstAmount": 15000,
+          "approvalRate": 98
+        },
+        {
+          "slug": "suncredit",
+          "name": "Suncredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 20000,
+          "approvalRate": 99
+        },
+        {
+          "slug": "rabbitmoney",
+          "name": "RabbitMoney",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 60000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "38569246",
+      "legalNameUk": "ТОВ «МАНІВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»",
+      "legalNameRu": "ООО «МАНИВЕО БЫСТРАЯ ФИНАНСОВАЯ ПОМОЩЬ»",
+      "brands": [
+        {
+          "slug": "moneyveo",
+          "name": "Moneyveo",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.7,
+          "maxFirstAmount": 25000,
+          "approvalRate": 96
+        },
+        {
+          "slug": "freestyle-credit",
+          "name": "FreeStyle Credit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 27000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "39287145",
+      "legalNameUk": "ТОВ «ФК «АБЕКОР»",
+      "legalNameRu": "ООО «ФК «АБЕКОР»",
+      "brands": [
+        {
+          "slug": "loan-plus",
+          "name": "Loan+",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 89
+        },
+        {
+          "slug": "first-credit",
+          "name": "First Credit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "39861924",
+      "legalNameUk": "ТОВ «1 БЕЗПЕЧНЕ АГЕНТСТВО НЕОБХІДНИХ КРЕДИТІВ»",
+      "legalNameRu": "ООО «1 БЕЗОПАСНОЕ АГЕНТСТВО НЕОБХОДИМЫХ КРЕДИТОВ»",
+      "brands": [
+        {
+          "slug": "mycredit",
+          "name": "MyCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.6,
+          "maxFirstAmount": 10000,
+          "approvalRate": 98
+        },
+        {
+          "slug": "clickcredit",
+          "name": "ClickCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "39898755",
+      "legalNameUk": "ТОВ ФК «УКРАЇНСЬКИЙ ПЛАТІЖНИЙ ЦЕНТР»",
+      "legalNameRu": "ООО ФК «УКРАИНСКИЙ ПЛАТЕЖНЫЙ ЦЕНТР»",
+      "brands": [
+        {
+          "slug": "aerocash",
+          "name": "AeroCash",
+          "firstLoanRate": 0.93,
+          "repeatLoanRate": 0.93,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        },
+        {
+          "slug": "rocket-money",
+          "name": "Rocket Money",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.93,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "41084239",
+      "legalNameUk": "ТОВ «БІЗНЕС ПОЗИКА»",
+      "legalNameRu": "ООО «БИЗНЕС ПОЗЫКА»",
+      "brands": [
+        {
+          "slug": "tvoyapozyka",
+          "name": "ТвояПозика",
+          "firstLoanRate": 1,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 150000,
+          "approvalRate": 94
+        },
+        {
+          "slug": "bizpozyka",
+          "name": "БізнесПозика",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 150000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "41919810",
+      "legalNameUk": "ТОВ «ГАМА АПГРЕЙД»",
+      "legalNameRu": "ООО «ГАМА АПГРЕЙД»",
+      "brands": [
+        {
+          "slug": "ranok",
+          "name": "Ranok",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.2,
+          "maxFirstAmount": 20000,
+          "approvalRate": 99
+        },
+        {
+          "slug": "ariba",
+          "name": "Ariba",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.2,
+          "maxFirstAmount": 20000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "41955906",
+      "legalNameUk": "ТОВ «ФІНТАРГЕТ»",
+      "legalNameRu": "ООО «ФИНТАРГЕТ»",
+      "brands": [
+        {
+          "slug": "microcash",
+          "name": "Microcash",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.7,
+          "maxFirstAmount": 6000,
+          "approvalRate": 99
+        },
+        {
+          "slug": "fcredit",
+          "name": "FCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.4,
+          "maxFirstAmount": 5000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "44162880",
+      "legalNameUk": "ТОВ «МАКС КРЕДИТ»",
+      "legalNameRu": "ООО «МАКС КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "treba",
+          "name": "Треба Кредит",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.47,
+          "maxFirstAmount": 10000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "lehko",
+          "name": "Lehko",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.94,
+          "maxFirstAmount": 10000,
+          "approvalRate": 97
+        }
+      ]
+    }
+  ],
+  "allEdrpouGroups": [
+    {
+      "edrpou": "38548598",
+      "legalNameUk": "ТОВ «УКР КРЕДИТ ФІНАНС»",
+      "legalNameRu": "ООО «УКР КРЕДИТ ФИНАНС»",
+      "brands": [
+        {
+          "slug": "creditkasa",
+          "name": "CreditKasa",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 15000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "credos",
+          "name": "Credos",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.99,
+          "maxFirstAmount": 20000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "navse",
+          "name": "НА ВСЕ",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 50000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "40484607",
+      "legalNameUk": "ТОВ «МІЛОАН»",
+      "legalNameRu": "ООО «МИЛОАН»",
+      "brands": [
+        {
+          "slug": "tengo",
+          "name": "Tengo",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.2,
+          "maxFirstAmount": 25000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "miloan",
+          "name": "Miloan",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.67,
+          "maxFirstAmount": 25000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "amigo",
+          "name": "Аміго",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.4,
+          "maxFirstAmount": 7000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "44022416",
+      "legalNameUk": "ТОВ «СТАР ФАЙНЕНС ГРУП»",
+      "legalNameRu": "ООО «СТАР ФАЙНЕНС ГРУП»",
+      "brands": [
+        {
+          "slug": "starfin",
+          "name": "Starfin",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.5,
+          "maxFirstAmount": 15000,
+          "approvalRate": 98
+        },
+        {
+          "slug": "suncredit",
+          "name": "Suncredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 20000,
+          "approvalRate": 99
+        },
+        {
+          "slug": "rabbitmoney",
+          "name": "RabbitMoney",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 60000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "38569246",
+      "legalNameUk": "ТОВ «МАНІВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»",
+      "legalNameRu": "ООО «МАНИВЕО БЫСТРАЯ ФИНАНСОВАЯ ПОМОЩЬ»",
+      "brands": [
+        {
+          "slug": "moneyveo",
+          "name": "Moneyveo",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.7,
+          "maxFirstAmount": 25000,
+          "approvalRate": 96
+        },
+        {
+          "slug": "freestyle-credit",
+          "name": "FreeStyle Credit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 27000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "39287145",
+      "legalNameUk": "ТОВ «ФК «АБЕКОР»",
+      "legalNameRu": "ООО «ФК «АБЕКОР»",
+      "brands": [
+        {
+          "slug": "loan-plus",
+          "name": "Loan+",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 89
+        },
+        {
+          "slug": "first-credit",
+          "name": "First Credit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "39861924",
+      "legalNameUk": "ТОВ «1 БЕЗПЕЧНЕ АГЕНТСТВО НЕОБХІДНИХ КРЕДИТІВ»",
+      "legalNameRu": "ООО «1 БЕЗОПАСНОЕ АГЕНТСТВО НЕОБХОДИМЫХ КРЕДИТОВ»",
+      "brands": [
+        {
+          "slug": "mycredit",
+          "name": "MyCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.6,
+          "maxFirstAmount": 10000,
+          "approvalRate": 98
+        },
+        {
+          "slug": "clickcredit",
+          "name": "ClickCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "39898755",
+      "legalNameUk": "ТОВ ФК «УКРАЇНСЬКИЙ ПЛАТІЖНИЙ ЦЕНТР»",
+      "legalNameRu": "ООО ФК «УКРАИНСКИЙ ПЛАТЕЖНЫЙ ЦЕНТР»",
+      "brands": [
+        {
+          "slug": "aerocash",
+          "name": "AeroCash",
+          "firstLoanRate": 0.93,
+          "repeatLoanRate": 0.93,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        },
+        {
+          "slug": "rocket-money",
+          "name": "Rocket Money",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.93,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "41084239",
+      "legalNameUk": "ТОВ «БІЗНЕС ПОЗИКА»",
+      "legalNameRu": "ООО «БИЗНЕС ПОЗЫКА»",
+      "brands": [
+        {
+          "slug": "tvoyapozyka",
+          "name": "ТвояПозика",
+          "firstLoanRate": 1,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 150000,
+          "approvalRate": 94
+        },
+        {
+          "slug": "bizpozyka",
+          "name": "БізнесПозика",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 150000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "41919810",
+      "legalNameUk": "ТОВ «ГАМА АПГРЕЙД»",
+      "legalNameRu": "ООО «ГАМА АПГРЕЙД»",
+      "brands": [
+        {
+          "slug": "ranok",
+          "name": "Ranok",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.2,
+          "maxFirstAmount": 20000,
+          "approvalRate": 99
+        },
+        {
+          "slug": "ariba",
+          "name": "Ariba",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.2,
+          "maxFirstAmount": 20000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "41955906",
+      "legalNameUk": "ТОВ «ФІНТАРГЕТ»",
+      "legalNameRu": "ООО «ФИНТАРГЕТ»",
+      "brands": [
+        {
+          "slug": "microcash",
+          "name": "Microcash",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.7,
+          "maxFirstAmount": 6000,
+          "approvalRate": 99
+        },
+        {
+          "slug": "fcredit",
+          "name": "FCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.4,
+          "maxFirstAmount": 5000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "44162880",
+      "legalNameUk": "ТОВ «МАКС КРЕДИТ»",
+      "legalNameRu": "ООО «МАКС КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "treba",
+          "name": "Треба Кредит",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.47,
+          "maxFirstAmount": 10000,
+          "approvalRate": 97
+        },
+        {
+          "slug": "lehko",
+          "name": "Lehko",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.94,
+          "maxFirstAmount": 10000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "20023569",
+      "legalNameUk": "АТ «ЮНЕКС БАНК»",
+      "legalNameRu": "АО «ЮНЕКС БАНК»",
+      "brands": [
+        {
+          "slug": "unex-bank",
+          "name": "Unex Bank",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 22000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "36413053",
+      "legalNameUk": "ТОВ «ІНВЕСТМЕНТ ФІНАНС ГРУП»",
+      "legalNameRu": "ООО «ИНВЕСТМЕНТ ФИНАНС ГРУПП»",
+      "brands": [
+        {
+          "slug": "funnymoney",
+          "name": "FunnyMoney",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 92
+        }
+      ]
+    },
+    {
+      "edrpou": "37356833",
+      "legalNameUk": "ТОВ «СПОЖИВЧИЙ ЦЕНТР»",
+      "legalNameRu": "ООО «СПОЖИВЧИЙ ЦЕНТР»",
+      "brands": [
+        {
+          "slug": "shvydkogroshi",
+          "name": "ШвидкоГроші",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.5,
+          "maxFirstAmount": 15000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "37625840",
+      "legalNameUk": "ТОВ «БІ ЕЛ ДЖІ МІКРОФІНАНС»",
+      "legalNameRu": "ООО «БИ ЭЛ ДЖИ МИКРОФИНАНС»",
+      "brands": [
+        {
+          "slug": "cashpoint",
+          "name": "Cashpoint",
+          "firstLoanRate": 0.99,
+          "repeatLoanRate": 0.99,
+          "maxFirstAmount": 10000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "39487128",
+      "legalNameUk": "ТОВ «СОС КРЕДИТ»",
+      "legalNameRu": "ООО «СОС КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "sos-credit",
+          "name": "SOS Credit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.5,
+          "maxFirstAmount": 20000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "39952398",
+      "legalNameUk": "ТОВ «ВЕЛЛФІН» / Агрегатор BestCredit",
+      "legalNameRu": "ООО «ВЕЛЛФИН» / Агрегатор BestCredit",
+      "brands": [
+        {
+          "slug": "bestcredit",
+          "name": "BestCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "40076206",
+      "legalNameUk": "ТОВ «КЛТ КРЕДИТ»",
+      "legalNameRu": "ООО «КЛТ КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "kltcredit",
+          "name": "KLTKredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "40474269",
+      "legalNameUk": "ТОВ «ФК «КРЕДІПЛЮС»",
+      "legalNameRu": "ООО «ФК «КРЕДИПЛЮС»",
+      "brands": [
+        {
+          "slug": "finx",
+          "name": "FinX",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 30000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "40660160",
+      "legalNameUk": "ТОВ «М-Р МАНІ»",
+      "legalNameRu": "ООО «М-Р МАНИ»",
+      "brands": [
+        {
+          "slug": "mister-money",
+          "name": "Mister Money",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 5000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "41078230",
+      "legalNameUk": "ТОВ «АВЕНТУС УКРАЇНА»",
+      "legalNameRu": "ООО «АВЕНТУС УКРАИНА»",
+      "brands": [
+        {
+          "slug": "creditplus",
+          "name": "CreditPlus",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 15000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "41125531",
+      "legalNameUk": "ТОВ «КРЕДИТСЕРВІС»",
+      "legalNameRu": "ООО «КРЕДИТСЕРВИС»",
+      "brands": [
+        {
+          "slug": "recredit",
+          "name": "Recredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "41346335",
+      "legalNameUk": "ТОВ «АЛЕКСКРЕДИТ»",
+      "legalNameRu": "ООО «АЛЕКСКРЕДИТ»",
+      "brands": [
+        {
+          "slug": "alexcredit",
+          "name": "AlexCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.7,
+          "maxFirstAmount": 6000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "41466388",
+      "legalNameUk": "ТОВ «ФК «ПРОЦЕНТ»",
+      "legalNameRu": "ООО «ФК «ПРОЦЕНТ»",
+      "brands": [
+        {
+          "slug": "procent",
+          "name": "Procent",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "41803222",
+      "legalNameUk": "ТОВ «ГРОШІ 247»",
+      "legalNameRu": "ООО «ГРОШИ 247»",
+      "brands": [
+        {
+          "slug": "groshi247",
+          "name": "Groshi247",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "42016442",
+      "legalNameUk": "ТОВ «ФІНАНСОВА КОМПАНІЯ «ГВАДІАНА»",
+      "legalNameRu": "ООО «ФИНАНСОВАЯ КОМПАНИЯ «ГВАДИАНА»",
+      "brands": [
+        {
+          "slug": "finbert",
+          "name": "Finbert",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 8000,
+          "approvalRate": 98
+        }
+      ]
+    },
+    {
+      "edrpou": "42024152",
+      "legalNameUk": "ТОВ «ФК «СУПЕРІУМ»",
+      "legalNameRu": "ООО «ФК «СУПЕРИУМ»",
+      "brands": [
+        {
+          "slug": "superium-online",
+          "name": "Superium Online",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "42146903",
+      "legalNameUk": "ТОВ «КЛАЙ ІНВЕСТ»",
+      "legalNameRu": "ООО «КЛАЙ ИНВЕСТ»",
+      "brands": [
+        {
+          "slug": "cly",
+          "name": "CLY",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "42152351",
+      "legalNameUk": "ТОВ «ФІНАНСОВА КОМПАНІЯ «НОВІ КРЕДИТИ»",
+      "legalNameRu": "ООО «ФИНАНСОВАЯ КОМПАНИЯ «НОВЫЕ КРЕДИТЫ»",
+      "brands": [
+        {
+          "slug": "novi-kredyty",
+          "name": "Нові Кредити",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 10000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "42350798",
+      "legalNameUk": "ТОВ «СЛОН КРЕДИТ»",
+      "legalNameRu": "ООО «СЛОН КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "sloncredit",
+          "name": "SlonCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 27000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "42640944",
+      "legalNameUk": "ТОВ «ФК «КІФ»",
+      "legalNameRu": "ООО «ФК «КИФ»",
+      "brands": [
+        {
+          "slug": "lovilave",
+          "name": "Lovilave",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.5,
+          "maxFirstAmount": 3000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "42753492",
+      "legalNameUk": "ТОВ «ЛІНЕУРА УКРАЇНА»",
+      "legalNameRu": "ООО «ЛИНЕУРА УКРАИНА»",
+      "brands": [
+        {
+          "slug": "credit7",
+          "name": "Credit7",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2,
+          "maxFirstAmount": 15000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "42806643",
+      "legalNameUk": "ТОВ «МАКС КРЕДИТ»",
+      "legalNameRu": "ООО «МАКС КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "maxicredit",
+          "name": "MaxiCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "42827134",
+      "legalNameUk": "ТОВ «СІРОКО ФІНАНС»",
+      "legalNameRu": "ООО «СИРОКО ФИНАНС»",
+      "brands": [
+        {
+          "slug": "monto",
+          "name": "Monto",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.5,
+          "maxFirstAmount": 3000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "43067861",
+      "legalNameUk": "ТОВ «ФІНАНСОВА КОМПАНІЯ «Є ГРОШІ КОМ»",
+      "legalNameRu": "ООО «ФИНАНСОВАЯ КОМПАНИЯ «Е ГРОШИ КОМ»",
+      "brands": [
+        {
+          "slug": "e-groshi",
+          "name": "E-groshi",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2,
+          "maxFirstAmount": 15000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "43174156",
+      "legalNameUk": "ТОВ «ФІНАНСОВА КОМПАНІЯ «АВІРА ГРУП»",
+      "legalNameRu": "ООО «ФИНАНСОВАЯ КОМПАНИЯ «АВИРА ГРУП»",
+      "brands": [
+        {
+          "slug": "aviracredit",
+          "name": "AviraCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.72,
+          "maxFirstAmount": 7000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "43561909",
+      "legalNameUk": "ТОВ «ФІНАНСОВА КОМПАНІЯ «ТАЙГЕР ФІНАНС»",
+      "legalNameRu": "ООО «ФИНАНСОВАЯ КОМПАНИЯ «ТАЙГЕР ФИНАНС»",
+      "brands": [
+        {
+          "slug": "ewacash",
+          "name": "EwaCash",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 5000,
+          "approvalRate": 98
+        }
+      ]
+    },
+    {
+      "edrpou": "43564082",
+      "legalNameUk": "ТОВ «ЕКО ФІН»",
+      "legalNameRu": "ООО «ЭКО ФИН»",
+      "brands": [
+        {
+          "slug": "cashtancredit",
+          "name": "CashtanCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 25000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "43601144",
+      "legalNameUk": "ТОВ «ФК ПРОСТО КРЕДИТ»",
+      "legalNameRu": "ООО «ФК ПРОСТО КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "prostocredit",
+          "name": "Prostocredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 6000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "43979069",
+      "legalNameUk": "ТОВ «СЕЛФІ КРЕДИТ»",
+      "legalNameRu": "ООО «СЕЛФИ КРЕДИТ»",
+      "brands": [
+        {
+          "slug": "selfiecredit",
+          "name": "SelfieCredit",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 30000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "44059032",
+      "legalNameUk": "ТОВ «ФК «ТОП1»",
+      "legalNameRu": "ООО «ФК «ТОП1»",
+      "brands": [
+        {
+          "slug": "top1-money",
+          "name": "TOP1 Money",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 20000,
+          "approvalRate": 94
+        }
+      ]
+    },
+    {
+      "edrpou": "44291834",
+      "legalNameUk": "ТОВ «ОПТИМАЛЬНІ КРЕДИТИ»",
+      "legalNameRu": "ООО «ОПТИМАЛЬНЫЕ КРЕДИТЫ»",
+      "brands": [
+        {
+          "slug": "limon",
+          "name": "Limon",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.2,
+          "maxFirstAmount": 27000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "44398210",
+      "legalNameUk": "ТОВ «ФК «БІКСБІТ»",
+      "legalNameRu": "ООО «ФК «БИКСБИТ»",
+      "brands": [
+        {
+          "slug": "turbogroshi",
+          "name": "TurboGroshi",
+          "firstLoanRate": 1,
+          "repeatLoanRate": 1.5,
+          "maxFirstAmount": 10000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "44419820",
+      "legalNameUk": "ТОВ «МАЙБІЗ»",
+      "legalNameRu": "ООО «МАЙБИЗ»",
+      "brands": [
+        {
+          "slug": "mybiz",
+          "name": "MyBiz",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2,
+          "maxFirstAmount": 10000,
+          "approvalRate": 95
+        }
+      ]
+    },
+    {
+      "edrpou": "44510290",
+      "legalNameUk": "ТОВ «ФК «ФІНМАРКЕТ»",
+      "legalNameRu": "ООО «ФК «ФИНМАРКЕТ»",
+      "brands": [
+        {
+          "slug": "finmarket",
+          "name": "Finmarket",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 2.2,
+          "maxFirstAmount": 30000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "44620708",
+      "legalNameUk": "ТОВ «ФІНАНСОВА КОМПАНІЯ «НЕЗАЛЕЖНІ ФІНАНСИ»",
+      "legalNameRu": "ООО «ФИНАНСОВАЯ КОМПАНИЯ «НЕЗАВИСИМЫЕ ФИНАНСЫ»",
+      "brands": [
+        {
+          "slug": "pango",
+          "name": "Pango",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 1.6,
+          "maxFirstAmount": 12000,
+          "approvalRate": 97
+        }
+      ]
+    },
+    {
+      "edrpou": "44653728",
+      "legalNameUk": "ТОВ «МУЛЬТІКРЕДИТ»",
+      "legalNameRu": "ООО «МУЛЬТИКРЕДИТ»",
+      "brands": [
+        {
+          "slug": "beecredit",
+          "name": "BeeCredit",
+          "firstLoanRate": 1,
+          "repeatLoanRate": 1,
+          "maxFirstAmount": 10000,
+          "approvalRate": 96
+        }
+      ]
+    },
+    {
+      "edrpou": "44912840",
+      "legalNameUk": "ТОВ «ІНВЕСТМЕНТ ФІНАНС ГРУП»",
+      "legalNameRu": "ООО «ИНВЕСТМЕНТ ФИНАНС ГРУП»",
+      "brands": [
+        {
+          "slug": "finclick",
+          "name": "FinClick",
+          "firstLoanRate": 0.01,
+          "repeatLoanRate": 0.92,
+          "maxFirstAmount": 8000,
+          "approvalRate": 96
+        }
+      ]
+    }
+  ],
+  "rowsForExport": [
+    {
+      "slug": "moneyveo",
+      "brand": "Moneyveo",
+      "category": "direct_mfo",
+      "edrpou": "38569246",
+      "legalName": "ТОВ «МАНІВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.7,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 25000,
+      "maxRepeatAmountUah": 25000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "creditkasa",
+      "brand": "CreditKasa",
+      "category": "direct_mfo",
+      "edrpou": "38548598",
+      "legalName": "ТОВ «УКР КРЕДИТ ФІНАНС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 8,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "mycredit",
+      "brand": "MyCredit",
+      "category": "direct_mfo",
+      "edrpou": "39861924",
+      "legalName": "ТОВ «1 БЕЗПЕЧНЕ АГЕНТСТВО НЕОБХІДНИХ КРЕДИТІВ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.6,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 98,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "shvydkogroshi",
+      "brand": "ШвидкоГроші",
+      "category": "direct_mfo",
+      "edrpou": "37356833",
+      "legalName": "ТОВ «СПОЖИВЧИЙ ЦЕНТР»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 95,
+      "payoutMinutes": 10,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "e-groshi",
+      "brand": "E-groshi",
+      "category": "direct_mfo",
+      "edrpou": "43067861",
+      "legalName": "ТОВ «ФІНАНСОВА КОМПАНІЯ «Є ГРОШІ КОМ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "tengo",
+      "brand": "Tengo",
+      "category": "direct_mfo",
+      "edrpou": "40484607",
+      "legalName": "ТОВ «МІЛОАН»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.2,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 25000,
+      "maxRepeatAmountUah": 25000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "miloan",
+      "brand": "Miloan",
+      "category": "direct_mfo",
+      "edrpou": "40484607",
+      "legalName": "ТОВ «МІЛОАН»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.67,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 25000,
+      "maxRepeatAmountUah": 25000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "creditplus",
+      "brand": "CreditPlus",
+      "category": "direct_mfo",
+      "edrpou": "41078230",
+      "legalName": "ТОВ «АВЕНТУС УКРАЇНА»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "credit7",
+      "brand": "Credit7",
+      "category": "direct_mfo",
+      "edrpou": "42753492",
+      "legalName": "ТОВ «ЛІНЕУРА УКРАЇНА»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 7,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "selfiecredit",
+      "brand": "SelfieCredit",
+      "category": "direct_mfo",
+      "edrpou": "43979069",
+      "legalName": "ТОВ «СЕЛФІ КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 30000,
+      "maxRepeatAmountUah": 30000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 4,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "sloncredit",
+      "brand": "SlonCredit",
+      "category": "direct_mfo",
+      "edrpou": "42350798",
+      "legalName": "ТОВ «СЛОН КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 27000,
+      "maxRepeatAmountUah": 27000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 6,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "finx",
+      "brand": "FinX",
+      "category": "direct_mfo",
+      "edrpou": "40474269",
+      "legalName": "ТОВ «ФК «КРЕДІПЛЮС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 30000,
+      "maxRepeatAmountUah": 30000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 10,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "starfin",
+      "brand": "Starfin",
+      "category": "direct_mfo",
+      "edrpou": "44022416",
+      "legalName": "ТОВ «СТАР ФАЙНЕНС ГРУП»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 98,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "suncredit",
+      "brand": "Suncredit",
+      "category": "direct_mfo",
+      "edrpou": "44022416",
+      "legalName": "ТОВ «СТАР ФАЙНЕНС ГРУП»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.5,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 99,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "ranok",
+      "brand": "Ranok",
+      "category": "direct_mfo",
+      "edrpou": "41919810",
+      "legalName": "ТОВ «ГАМА АПГРЕЙД»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.2,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 99,
+      "payoutMinutes": 4,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "finbert",
+      "brand": "Finbert",
+      "category": "direct_mfo",
+      "edrpou": "42016442",
+      "legalName": "ТОВ «ФІНАНСОВА КОМПАНІЯ «ГВАДІАНА»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 8000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 98,
+      "payoutMinutes": 4,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "microcash",
+      "brand": "Microcash",
+      "category": "direct_mfo",
+      "edrpou": "41955906",
+      "legalName": "ТОВ «ФІНТАРГЕТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.7,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 6000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 99,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "ewacash",
+      "brand": "EwaCash",
+      "category": "direct_mfo",
+      "edrpou": "43561909",
+      "legalName": "ТОВ «ФІНАНСОВА КОМПАНІЯ «ТАЙГЕР ФІНАНС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 5000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 98,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "clickcredit",
+      "brand": "ClickCredit",
+      "category": "direct_mfo",
+      "edrpou": "39861924",
+      "legalName": "ТОВ «1 БЕЗПЕЧНЕ АГЕНТСТВО НЕОБХІДНИХ КРЕДИТІВ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 8000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 4,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "pango",
+      "brand": "Pango",
+      "category": "direct_mfo",
+      "edrpou": "44620708",
+      "legalName": "ТОВ «ФІНАНСОВА КОМПАНІЯ «НЕЗАЛЕЖНІ ФІНАНСИ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.6,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 12000,
+      "maxRepeatAmountUah": 12000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "sos-credit",
+      "brand": "SOS Credit",
+      "category": "direct_mfo",
+      "edrpou": "39487128",
+      "legalName": "ТОВ «СОС КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 6,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "alexcredit",
+      "brand": "AlexCredit",
+      "category": "direct_mfo",
+      "edrpou": "41346335",
+      "legalName": "ТОВ «АЛЕКСКРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.7,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 6000,
+      "maxRepeatAmountUah": 6000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 6,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "lovilave",
+      "brand": "Lovilave",
+      "category": "direct_mfo",
+      "edrpou": "42640944",
+      "legalName": "ТОВ «ФК «КІФ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 3000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 3,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "treba",
+      "brand": "Треба Кредит",
+      "category": "direct_mfo",
+      "edrpou": "44162880",
+      "legalName": "ТОВ «МАКС КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.47,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "limon",
+      "brand": "Limon",
+      "category": "direct_mfo",
+      "edrpou": "44291834",
+      "legalName": "ТОВ «ОПТИМАЛЬНІ КРЕДИТИ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.2,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 27000,
+      "maxRepeatAmountUah": 27000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "mister-money",
+      "brand": "Mister Money",
+      "category": "direct_mfo",
+      "edrpou": "40660160",
+      "legalName": "ТОВ «М-Р МАНІ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 5000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "aviracredit",
+      "brand": "AviraCredit",
+      "category": "direct_mfo",
+      "edrpou": "43174156",
+      "legalName": "ТОВ «ФІНАНСОВА КОМПАНІЯ «АВІРА ГРУП»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 0.72,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 7000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "cashtancredit",
+      "brand": "CashtanCredit",
+      "category": "direct_mfo",
+      "edrpou": "43564082",
+      "legalName": "ТОВ «ЕКО ФІН»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 25000,
+      "maxRepeatAmountUah": 25000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 6,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "beecredit",
+      "brand": "BeeCredit",
+      "category": "direct_mfo",
+      "edrpou": "44653728",
+      "legalName": "ТОВ «МУЛЬТІКРЕДИТ»",
+      "firstLoanRateDailyPercent": 1,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "tvoyapozyka",
+      "brand": "ТвояПозика",
+      "category": "direct_mfo",
+      "edrpou": "41084239",
+      "legalName": "ТОВ «БІЗНЕС ПОЗИКА»",
+      "firstLoanRateDailyPercent": 1,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 3000,
+      "maxFirstAmountUah": 150000,
+      "maxRepeatAmountUah": 150000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 10,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "ariba",
+      "brand": "Ariba",
+      "category": "direct_mfo",
+      "edrpou": "41919810",
+      "legalName": "ТОВ «ГАМА АПГРЕЙД»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.2,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "lehko",
+      "brand": "Lehko",
+      "category": "direct_mfo",
+      "edrpou": "44162880",
+      "legalName": "ТОВ «МАКС КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 0.94,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "unex-bank",
+      "brand": "Unex Bank",
+      "category": "direct_mfo",
+      "edrpou": "20023569",
+      "legalName": "АТ «ЮНЕКС БАНК»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 2000,
+      "maxFirstAmountUah": 22000,
+      "maxRepeatAmountUah": 22000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 10,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "finclick",
+      "brand": "FinClick",
+      "category": "direct_mfo",
+      "edrpou": "44912840",
+      "legalName": "ТОВ «ІНВЕСТМЕНТ ФІНАНС ГРУП»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 0.92,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 8000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "turbogroshi",
+      "brand": "TurboGroshi",
+      "category": "direct_mfo",
+      "edrpou": "44398210",
+      "legalName": "ТОВ «ФК «БІКСБІТ»",
+      "firstLoanRateDailyPercent": 1,
+      "repeatLoanRateDailyPercent": 1.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "mybiz",
+      "brand": "MyBiz",
+      "category": "direct_mfo",
+      "edrpou": "44419820",
+      "legalName": "ТОВ «МАЙБІЗ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 95,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "aerocash",
+      "brand": "AeroCash",
+      "category": "direct_mfo",
+      "edrpou": "39898755",
+      "legalName": "ТОВ ФК «УКРАЇНСЬКИЙ ПЛАТІЖНИЙ ЦЕНТР»",
+      "firstLoanRateDailyPercent": 0.93,
+      "repeatLoanRateDailyPercent": 0.93,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 8000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "rocket-money",
+      "brand": "Rocket Money",
+      "category": "direct_mfo",
+      "edrpou": "39898755",
+      "legalName": "ТОВ ФК «УКРАЇНСЬКИЙ ПЛАТІЖНИЙ ЦЕНТР»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 0.93,
+      "minAmountUah": 3000,
+      "maxFirstAmountUah": 8000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "finmarket",
+      "brand": "Finmarket",
+      "category": "direct_mfo",
+      "edrpou": "44510290",
+      "legalName": "ТОВ «ФК «ФІНМАРКЕТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.2,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 30000,
+      "maxRepeatAmountUah": 30000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "cashpoint",
+      "brand": "Cashpoint",
+      "category": "direct_mfo",
+      "edrpou": "37625840",
+      "legalName": "ТОВ «БІ ЕЛ ДЖІ МІКРОФІНАНС»",
+      "firstLoanRateDailyPercent": 0.99,
+      "repeatLoanRateDailyPercent": 0.99,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 95,
+      "payoutMinutes": 15,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "fcredit",
+      "brand": "FCredit",
+      "category": "direct_mfo",
+      "edrpou": "41955906",
+      "legalName": "ТОВ «ФІНТАРГЕТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.4,
+      "minAmountUah": 1000,
+      "maxFirstAmountUah": 5000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 4,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "freestyle-credit",
+      "brand": "FreeStyle Credit",
+      "category": "direct_mfo",
+      "edrpou": "38569246",
+      "legalName": "ТОВ «МАНІВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 27000,
+      "maxRepeatAmountUah": 27000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "credos",
+      "brand": "Credos",
+      "category": "direct_mfo",
+      "edrpou": "38548598",
+      "legalName": "ТОВ «УКР КРЕДИТ ФІНАНС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 0.99,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 6,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "amigo",
+      "brand": "Аміго",
+      "category": "direct_mfo",
+      "edrpou": "40484607",
+      "legalName": "ТОВ «МІЛОАН»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.4,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 7000,
+      "maxRepeatAmountUah": 25000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 95,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "navse",
+      "brand": "НА ВСЕ",
+      "category": "direct_mfo",
+      "edrpou": "38548598",
+      "legalName": "ТОВ «УКР КРЕДИТ ФІНАНС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 50000,
+      "maxRepeatAmountUah": 50000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 95,
+      "payoutMinutes": 8,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "prostocredit",
+      "brand": "Prostocredit",
+      "category": "direct_mfo",
+      "edrpou": "43601144",
+      "legalName": "ТОВ «ФК ПРОСТО КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 6000,
+      "maxRepeatAmountUah": 8000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 95,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "monto",
+      "brand": "Monto",
+      "category": "direct_mfo",
+      "edrpou": "42827134",
+      "legalName": "ТОВ «СІРОКО ФІНАНС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 2.5,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 3000,
+      "maxRepeatAmountUah": 3000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 96,
+      "payoutMinutes": 4,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "novi-kredyty",
+      "brand": "Нові Кредити",
+      "category": "direct_mfo",
+      "edrpou": "42152351",
+      "legalName": "ТОВ «ФІНАНСОВА КОМПАНІЯ «НОВІ КРЕДИТИ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 10000,
+      "maxRepeatAmountUah": 10000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "bizpozyka",
+      "brand": "БізнесПозика",
+      "category": "direct_mfo",
+      "edrpou": "41084239",
+      "legalName": "ТОВ «БІЗНЕС ПОЗИКА»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 300,
+      "maxFirstAmountUah": 150000,
+      "maxRepeatAmountUah": 150000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 97,
+      "payoutMinutes": 10,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": false,
+      "prolongation": true
+    },
+    {
+      "slug": "top1-money",
+      "brand": "TOP1 Money",
+      "category": "direct_mfo",
+      "edrpou": "44059032",
+      "legalName": "ТОВ «ФК «ТОП1»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": true,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "loan-plus",
+      "brand": "Loan+",
+      "category": "direct_mfo",
+      "edrpou": "39287145",
+      "legalName": "ТОВ «ФК «АБЕКОР»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 89,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "recredit",
+      "brand": "Recredit",
+      "category": "direct_mfo",
+      "edrpou": "41125531",
+      "legalName": "ТОВ «КРЕДИТСЕРВІС»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "kltcredit",
+      "brand": "KLTKredit",
+      "category": "direct_mfo",
+      "edrpou": "40076206",
+      "legalName": "ТОВ «КЛТ КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "maxicredit",
+      "brand": "MaxiCredit",
+      "category": "direct_mfo",
+      "edrpou": "42806643",
+      "legalName": "ТОВ «МАКС КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "funnymoney",
+      "brand": "FunnyMoney",
+      "category": "direct_mfo",
+      "edrpou": "36413053",
+      "legalName": "ТОВ «ІНВЕСТМЕНТ ФІНАНС ГРУП»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 92,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "cly",
+      "brand": "CLY",
+      "category": "direct_mfo",
+      "edrpou": "42146903",
+      "legalName": "ТОВ «КЛАЙ ІНВЕСТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "first-credit",
+      "brand": "First Credit",
+      "category": "direct_mfo",
+      "edrpou": "39287145",
+      "legalName": "ТОВ «ФК «АБЕКОР»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "minibank",
+      "brand": "Minibank",
+      "category": "aggregator",
+      "edrpou": "43042782",
+      "legalName": "ТОВ «ФІНПАРТНЕРС» (онлайн-агрегатор)",
+      "firstLoanRateDailyPercent": 0.1,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 50000,
+      "maxRepeatAmountUah": 50000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "procent",
+      "brand": "Procent",
+      "category": "direct_mfo",
+      "edrpou": "41466388",
+      "legalName": "ТОВ «ФК «ПРОЦЕНТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "superium-online",
+      "brand": "Superium Online",
+      "category": "direct_mfo",
+      "edrpou": "42024152",
+      "legalName": "ТОВ «ФК «СУПЕРІУМ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "rabbitmoney",
+      "brand": "RabbitMoney",
+      "category": "direct_mfo",
+      "edrpou": "44022416",
+      "legalName": "ТОВ «СТАР ФАЙНЕНС ГРУП»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 60000,
+      "maxRepeatAmountUah": 60000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "groshi247",
+      "brand": "Groshi247",
+      "category": "direct_mfo",
+      "edrpou": "41803222",
+      "legalName": "ТОВ «ГРОШІ 247»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "lemurcredit",
+      "brand": "Lemurcredit",
+      "category": "aggregator",
+      "edrpou": "Н/Д (агрегатор)",
+      "legalName": "Маркетплейс Lemurcredit (агрегатор МФО)",
+      "firstLoanRateDailyPercent": 0.1,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 15000,
+      "maxRepeatAmountUah": 15000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "bestcredit",
+      "brand": "BestCredit",
+      "category": "direct_mfo",
+      "edrpou": "39952398",
+      "legalName": "ТОВ «ВЕЛЛФІН» / Агрегатор BestCredit",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "credityes",
+      "brand": "Credityes",
+      "category": "aggregator",
+      "edrpou": "41123953",
+      "legalName": "ТОВ «ВОК ФІНАНС ЮКРЕЙН»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "binixo",
+      "brand": "Binixo",
+      "category": "aggregator",
+      "edrpou": "60165589Р (Кіпр)",
+      "legalName": "INFINSA LTD (маркетплейс Binixo)",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    },
+    {
+      "slug": "fastcredit",
+      "brand": "Fastcredit",
+      "category": "aggregator",
+      "edrpou": "44500873",
+      "legalName": "ТОВ «ФАСТ КРЕДИТ»",
+      "firstLoanRateDailyPercent": 0.01,
+      "repeatLoanRateDailyPercent": 1,
+      "minAmountUah": 500,
+      "maxFirstAmountUah": 20000,
+      "maxRepeatAmountUah": 20000,
+      "realAprMinPercent": 3.65,
+      "realAprMaxPercent": 730,
+      "approvalRatePercent": 94,
+      "payoutMinutes": 5,
+      "bankId": true,
+      "diya": false,
+      "autoScoring247": true,
+      "noCalls": true,
+      "prolongation": true
+    }
+  ]
+}
